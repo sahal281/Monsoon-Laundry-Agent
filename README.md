@@ -42,24 +42,17 @@ To run this agent locally or inside a Jupyter workspace:
     pip install google-genai
 
 3. Initialize your API key securely as an environment variable:
-   import os
+   ```bash
+    import os
     os.environ["GEMINI_API_KEY"] = "your_actual_api_key_here"
 
-4. Run the workspace cells sequentially to spin up the agent workspace and execute custom laundry lists.
+5. Run the workspace cells sequentially to spin up the agent workspace and execute custom laundry lists.
 
 
-📊 Sample Output Analysis
+## 📊 Sample Output Analysis:
 ​  When tested with a target location experiencing a shift from heavy rainfall to sunny intervals, the agent successfully executed the following plan:
 ​  Automatically invoked the weather tool to gather real-time regional metrics.
 ​  Sorted delicate silk fabrics into non-tumble, flat-dry protocols away from direct UV exposure.
 ​  Isolated infant clothing into high-temperature, sanitization-focused wash queues.
 ​  Strategically delayed or prioritized specific loads to leverage peak solar windows for heavy fabrics like denim.
   
----
-
-### What to do next:
-1. Delete whatever is currently in your GitHub `README.md` editor.
-2. Paste this entire copied block inside.
-3. Change `YOUR_GITHUB_USERNAME` and `YOUR_REPO_NAME` in the installation section to match your actual GitHub details (or just leave them as a template for others).
-4. Scroll down and click the green **Commit changes** button. 
-   
